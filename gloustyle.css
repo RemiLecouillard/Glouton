@@ -1,0 +1,72 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+
+#exclaGlouton{
+	animation-name: exclaGloutonAnim;
+	animation-duration: 3.5s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+#glouTitre{
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#gloutImage{
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	border: 2px black solid;
+	border-radius: 15px;
+}
+
+#gloutHeader{
+	width:100%;
+	position:fixed;
+	top:0;
+	padding:0;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+#glouDroit{
+	display:inline-block;
+	float:right;
+	clear:both;
+	animation-name: glouDroit;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+}
+
+#glouGauche{
+	display:inline-block;
+	transform: rotateY(180deg);
+	animation-name: glouGauche;
+	animation-duration: 1s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes glouDroit{
+	0%{transform: rotate(0deg)}
+	50%{transform: rotate(90deg)}
+	100%{transform: rotate(0deg)}
+}
+
+@keyframes glouGauche{
+	0%{transform: rotate(0deg) rotateY(180deg)}
+	50%{transform: rotate(-90deg) rotateY(180deg)}
+	100%{transform: rotate(0deg) rotateY(180deg)}
+}
+
+@keyframes exclaGloutonAnim{
+	0%{color:black;font-size: 16px;}
+	20%{font-size: 26px;}
+	40%{color:#a76000;font-size: 36px;}
+	60%{font-size: 46px;}
+	80%{font-size: 56px;}
+	100%{color:black;font-size: 16px;}
+}
