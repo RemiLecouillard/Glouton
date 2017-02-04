@@ -1,6 +1,44 @@
 body {
+	display : table;
 	padding: 0;
 	margin: 0;
+	height: 100%;
+	width: 100%;
+	background-color: beige;
+}
+
+html {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+footer {
+	display : table-row;
+	height: 16px;
+	background-color: maroon;
+	color: beige;
+	text-align: center;
+}
+
+button {
+	color: beige;
+	background-color: maroon;
+	border: 0px;
+	border-radius:3px;
+	height: 30px;
+	font-size: 16px;
+}
+
+button:hover {
+	color: maroon;
+	background-color: beige;
+	border: 1px solid maroon;
+}
+
+a {
+	color: black;
+	decoration: none;
 }
 
 #exclaGlouton{
@@ -48,6 +86,14 @@ body {
 	animation-name: glouGauche;
 	animation-duration: 1s;
 	animation-iteration-count: infinite;
+}
+
+#gloutMenu{
+	align: center;
+	text-align: center;
+	margin-top: 15px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 @keyframes glouDroit{
