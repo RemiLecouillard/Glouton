@@ -5,7 +5,7 @@
 		<meta name="publisher" content="Dussartre Lecouillard Leplanquois">
 		<meta name="description" content="Le meilleur site des internets, dédié au meilleur animal ayant jamais gracié cette terre!">
 		<link rel="stylesheet" href="gloustyle.css" type="text/css"/>
-		<link rel="icon" type="image/jpg" href="favicon.png"/>
+		<link rel="icon" type="image/jpg" href="favicon.jpg"/>
 	</head>
 	<body>
 		<div id="gloutHeader">
